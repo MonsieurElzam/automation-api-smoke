@@ -1,0 +1,28 @@
+{
+  "name": "automation-api-smoke",
+  "version": "1.0.0",
+  "description": "API smoke test: dependency-free Node.js script",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-api-smoke": "src/api-smoke.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-api-smoke.git"
+  },
+  "homepage": "https://monsieurelzam.com/en/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "api-smoke"
+  ]
+}
